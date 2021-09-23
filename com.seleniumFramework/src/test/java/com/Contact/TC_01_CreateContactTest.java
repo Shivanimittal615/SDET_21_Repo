@@ -11,8 +11,8 @@ public class TC_01_CreateContactTest {
 	public void createContactTest()
 	{
 		System.out.println("Execute Create Contact Test");
-		String BROWSER = System.getProperty("chrome");
-		String ENV = System.getProperty("https://staging.com");
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("url");
 		System.out.println("BROWSER=====>" +BROWSER  +", URL=======>"+ENV);
 	}
 	
