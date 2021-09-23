@@ -23,7 +23,16 @@ public class TC_01_CreateContactTest {
 public void deleteContactTest()
 {
 	System.out.println("Execute delete Contact Test");
+	
+}
+	
+	@Test(groups = "RegressionTest")
+
+	public void searchContactTest()
+	{
+		System.out.println("Execute search Contact Test");
+	}
 }
 
 
-}
+
